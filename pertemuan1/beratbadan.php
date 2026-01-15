@@ -18,7 +18,7 @@ $hasil = null; //inisialisasi variabel hasil
     } elseif ($hasil >= 25 && $hasil < 29.9) {
         $hasil = "Gemuk (Overweight) dengan IMT " . number_format($hasil, 2);
     } else {
-        $hasil = "<span class='text-danger'>Obesitas</span> dengan IMT " . number_format($hasil, 2);
+        $hasil = "<span class='text-danger fw-bold'>Obesitas dengan IMT " . number_format($hasil, 2) . "</span>";
 
     }
 
@@ -64,7 +64,7 @@ $hasil = null; //inisialisasi variabel hasil
         </div>
 
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 
